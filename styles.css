@@ -47,7 +47,17 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
 .comp{position:absolute;inset:0}
 .layer{position:absolute;inset:0;will-change:transform}
 .rubytext{position:absolute;left:0;width:100%;top:44%;height:min(calc(100cqw / 4.08),62%);transform:translateY(-50%);overflow:visible;display:block}
-.glass{position:absolute;left:50%;bottom:4%;height:min(92%,56cqw);width:auto;transform:translateX(-50%);display:block;-webkit-user-drag:none;user-select:none}
+.glass{position:absolute;left:50%;bottom:4%;height:min(92%,56cqw);width:auto;transform:translateX(-50%);display:block;-webkit-user-drag:none;user-select:none;
+  animation:glassFloat 7s ease-in-out infinite}
+@keyframes glassFloat{
+  0%,100%{transform:translateX(-50%) translateY(0) rotate(0deg)}
+  25%{transform:translateX(-50%) translateY(-1.4cqw) rotate(-1.6deg)}
+  50%{transform:translateX(-50%) translateY(0) rotate(0deg)}
+  75%{transform:translateX(-50%) translateY(1.1cqw) rotate(1.6deg)}
+}
+@media (prefers-reduced-motion:reduce){
+  .glass{animation:none}
+}
 
 .left,.right{position:absolute;bottom:6%;will-change:transform,opacity}
 .left{left:3.5%;width:28%}
