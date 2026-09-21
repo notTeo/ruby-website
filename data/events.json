@@ -1,0 +1,13 @@
+{
+  "_comment": "Event fields: id (unique slug), title, description, image (path under assets/images/events/), dateStart (ISO 8601, e.g. 2026-10-31T20:00:00), dateEnd (ISO 8601 - when the event ends, e.g. 2026-10-31T23:30:00). Set \"events\": [] to show the 'No events scheduled' message instead.",
+  "events": [
+    {
+      "id": "halloween-night",
+      "title": "Halloween Night",
+      "description": "Costumes, candlelight, and a one-night cocktail special.",
+      "image": "assets/images/events/halloween-night.jpg",
+      "dateStart": "2026-10-31T20:00:00",
+      "dateEnd": "2026-10-31T23:30:00"
+    }
+  ]
+}

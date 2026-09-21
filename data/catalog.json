@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": "signature",
+      "name": "Signature",
+      "items": [
+        { "id": "ruby-sour", "name": "Ruby Sour", "price": "€13", "description": "Rye, red grapefruit, lemon, egg white", "image": "assets/images/catalog/ruby-sour.jpg" },
+        { "id": "garnet-fizz", "name": "Garnet Fizz", "price": "€12", "description": "Gin, pomegranate, lime, prosecco", "image": "assets/images/catalog/garnet-fizz.jpg" },
+        { "id": "velvet-hour", "name": "Velvet Hour", "price": "€13", "description": "Bourbon, cherry, amaro, orange bitters", "image": "assets/images/catalog/velvet-hour.jpg" },
+        { "id": "red-wall", "name": "Red Wall", "price": "€14", "description": "Mezcal, hibiscus, lime, chili salt", "image": "assets/images/catalog/red-wall.jpg" }
+      ]
+    },
+    {
+      "id": "classics",
+      "name": "Classics",
+      "items": [
+        { "id": "dry-martini", "name": "Dry Martini", "price": "€12", "description": "Gin, dry vermouth, olive or twist", "image": "assets/images/catalog/dry-martini.jpg" },
+        { "id": "negroni", "name": "Negroni", "price": "€11", "description": "Gin, Campari, sweet vermouth", "image": "assets/images/catalog/negroni.jpg" },
+        { "id": "old-fashioned", "name": "Old Fashioned", "price": "€12", "description": "Bourbon, demerara, Angostura", "image": "assets/images/catalog/old-fashioned.jpg" },
+        { "id": "espresso-martini", "name": "Espresso Martini", "price": "€12", "description": "Vodka, coffee liqueur, fresh espresso", "image": "assets/images/catalog/espresso-martini.jpg" }
+      ]
+    },
+    {
+      "id": "zero-proof",
+      "name": "Zero-proof",
+      "items": [
+        { "id": "ruby-spritz", "name": "Ruby Spritz", "price": "€8", "description": "Hibiscus, citrus, tonic", "image": "assets/images/catalog/ruby-spritz.jpg" },
+        { "id": "garden-sour", "name": "Garden Sour", "price": "€8", "description": "Cucumber, lime, basil, aquafaba", "image": "assets/images/catalog/garden-sour.jpg" },
+        { "id": "pomegranate-tonic", "name": "Pomegranate Tonic", "price": "€7", "description": "Pomegranate, rosemary, tonic", "image": "assets/images/catalog/pomegranate-tonic.jpg" },
+        { "id": "smoked-tea-highball", "name": "Smoked Tea Highball", "price": "€8", "description": "Lapsang tea, lemon, soda", "image": "assets/images/catalog/smoked-tea-highball.jpg" }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": "Spirits",
+      "items": [
+        { "id": "single-malt", "name": "Single malt", "price": "€12", "description": "Speyside, 4cl", "image": "assets/images/catalog/single-malt.jpg" },
+        { "id": "aged-rum", "name": "Aged rum", "price": "€10", "description": "Caribbean blend, 4cl", "image": "assets/images/catalog/aged-rum.jpg" },
+        { "id": "mezcal", "name": "Mezcal", "price": "€11", "description": "Espadín, 4cl", "image": "assets/images/catalog/mezcal.jpg" },
+        { "id": "cognac-vs", "name": "Cognac VS", "price": "€10", "description": "Charente, 4cl", "image": "assets/images/catalog/cognac-vs.jpg" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "photos": [
+    { "id": "about-1", "image": "assets/images/about/about-1.jpg", "alt": "Ruby bar interior" },
+    { "id": "about-2", "image": "assets/images/about/about-2.jpg", "alt": "Ruby bar interior" },
+    { "id": "about-3", "image": "assets/images/about/about-3.jpg", "alt": "Ruby bar interior" }
+  ]
+}
