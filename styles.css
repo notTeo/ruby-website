@@ -46,7 +46,8 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
 .art{position:absolute;inset:0}
 .comp{position:absolute;inset:0}
 .layer{position:absolute;inset:0;will-change:transform}
-.rubytext{position:absolute;left:0;width:100%;top:44%;height:min(calc(100cqw / 4.08),62%);transform:translateY(-50%);overflow:visible;display:block}
+.rubytext{position:absolute;left:0;top:44%;transform:translateY(-50%);transform-origin:0 50%;
+  white-space:nowrap;margin:0;padding:0;font-family:var(--logo);font-weight:400;line-height:1;color:#f3efe9;font-size:24cqw}
 .glass{position:absolute;left:50%;bottom:4%;height:min(92%,56cqw);width:auto;transform:translateX(-50%);display:block;-webkit-user-drag:none;user-select:none;
   animation:glassFloat 7s ease-in-out infinite}
 @keyframes glassFloat{
@@ -132,7 +133,7 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
   .hero::before{filter:contrast(1.7) brightness(.42)}
   .art{position:relative;inset:auto;flex:none;height:max(80svh,140cqw);display:flex;align-items:flex-start;width:100%}
   .comp{position:relative;inset:auto;flex:none;width:100%;aspect-ratio:1/1.4;margin-top:clamp(0px,calc(80svh - 140cqw),4cqw)}
-  .rubytext{left:0;width:100%;top:12.1%;height:calc(100cqw / 4.08);transform:none}
+  .rubytext{left:0;top:12.1%;transform:none;transform-origin:0 0;font-size:24cqw}
   .glass{width:68cqw;height:auto}
   .left,.right{position:absolute;bottom:auto;top:84cqw;width:38%;padding:0;will-change:auto}
   .left{left:4%}
