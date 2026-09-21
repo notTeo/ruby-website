@@ -65,6 +65,7 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
 .sec{position:relative;min-height:100svh;display:grid;align-content:center;padding:clamp(90px,12vw,170px) clamp(20px,6vw,120px);overflow:hidden}
 .sec--bone{background:var(--bone);color:var(--wine-deep)}
 .sec--wine{background:var(--wine);color:var(--bone)}
+.sec--compact{min-height:0;padding-top:clamp(60px,8vw,110px);padding-bottom:clamp(60px,8vw,110px)}
 .sec h2{margin:0 0 .25em;font-family:var(--serif);font-weight:700;font-size:clamp(3.5rem,11vw,11rem);line-height:.95;letter-spacing:-.02em;will-change:transform}
 .sec p{margin:0;max-width:32ch;font-size:clamp(1.2rem,1.7vw,1.7rem);line-height:1.4;opacity:.75}
 
