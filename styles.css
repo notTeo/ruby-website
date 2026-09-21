@@ -1,5 +1,5 @@
 :root{
-  --hero-bg:#7d0a24;
+  --hero-bg:#9c1230;
   --accent:#2a0509;
   --wine:#3f080e;
   --wine-deep:#2a0509;
@@ -41,7 +41,7 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
   background:var(--hero-bg)}
 .hero::before{content:'';position:absolute;inset:0;pointer-events:none;
   background:url('assets/images/textures/paper.jpg') center/cover no-repeat;
-  filter:contrast(2.2) brightness(.5);mix-blend-mode:multiply}
+  filter:brightness(.5) contrast(1.8);mix-blend-mode:multiply}
 .art{position:absolute;inset:0}
 .comp{position:absolute;inset:0}
 .layer{position:absolute;inset:0;will-change:transform}
