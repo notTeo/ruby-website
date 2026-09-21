@@ -18,7 +18,7 @@
       var isP=portrait.matches;
       // depth: the RUBY text lags behind (far), the glass barely lags (near)
       textLayer.style.transform='translate3d(0,'+(y*(isP?0:0.4))+'px,0)';
-      glassLayer.style.transform='translate3d(0,'+(y*(isP?0.08:0.1))+'px,0)';
+      glassLayer.style.transform='translate3d(0,'+(y*(isP?0.18:0.3))+'px,0)';
       fades.forEach(function(el){
         if(isP){el.style.transform='';el.style.opacity='';return;}
         el.style.transform='translate3d(0,'+(y*0.15)+'px,0)';
