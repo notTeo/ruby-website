@@ -7,6 +7,7 @@
   --olive:#b7b55a;
   --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
   --sans:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --logo:"Gasoek One","Archivo","Helvetica Neue",Arial,sans-serif;
   --ease:cubic-bezier(.22,1,.36,1);
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
@@ -30,7 +31,7 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
 .nav a.link:hover{background-size:calc(100% - 2*var(--lp)) 1px}
 
 /* Small logo: collapsed to nothing, then grows in and pushes the links apart */
-.nav__logo{font-family:var(--sans);font-weight:800;font-stretch:112%;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;line-height:1;
+.nav__logo{font-family:var(--logo);font-weight:400;font-stretch:112%;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;line-height:1;
   font-size:clamp(1.6rem,2.5vw,2.8rem);
   max-width:0;margin:0;opacity:0;transform:scale(.8);overflow:hidden;pointer-events:none;
   transition:max-width .9s var(--ease),margin .9s var(--ease),opacity .6s ease,transform .9s var(--ease)}
@@ -104,7 +105,7 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
 /* ---------- Footer ---------- */
 .footer{background:var(--wine-deep);color:var(--bone);padding:clamp(44px,5vw,76px) clamp(20px,6vw,120px) clamp(28px,3vw,44px);border-top:1px solid rgba(239,234,227,.12)}
 .footer__top{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}
-.footer__logo{font-family:var(--sans);font-weight:800;font-stretch:112%;text-transform:uppercase;letter-spacing:.06em;line-height:1;font-size:clamp(1.6rem,2.5vw,2.4rem)}
+.footer__logo{font-family:var(--logo);font-weight:400;font-stretch:112%;text-transform:uppercase;letter-spacing:.06em;line-height:1;font-size:clamp(1.6rem,2.5vw,2.4rem)}
 .footer__links{display:flex;flex-wrap:wrap;gap:12px clamp(20px,3vw,48px);font-weight:600;font-size:clamp(1.05rem,1.3vw,1.3rem)}
 .footer__links a{opacity:.75;transition:opacity .4s var(--ease)}
 .footer__links a:hover{opacity:1}
