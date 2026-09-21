@@ -48,8 +48,10 @@ a:focus-visible{outline:2px solid var(--olive);outline-offset:4px}
 
 /* ---------- Hero: dark ruby background, big RUBY behind, glass cut-out in front ---------- */
 .hero{position:relative;min-height:100svh;overflow:hidden;container-type:inline-size;
-  background:var(--hero-bg) url('assets/images/textures/paper.jpg') center/cover no-repeat;
-  background-blend-mode:multiply}
+  background:var(--hero-bg)}
+.hero::before{content:'';position:absolute;inset:0;pointer-events:none;
+  background:url('assets/images/textures/paper.jpg') center/cover no-repeat;
+  filter:contrast(1.2) brightness(.78);mix-blend-mode:multiply}
 .art{position:absolute;inset:0}
 .comp{position:absolute;inset:0}
 .layer{position:absolute;inset:0;will-change:transform}
