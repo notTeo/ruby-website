@@ -9,15 +9,6 @@
       portrait=window.matchMedia('(max-aspect-ratio: 1/1)'),
       ticking=false;
 
-  function fitLetters(){
-    var isP=portrait.matches;
-    letters.style.transform=isP?'scaleX(1)':'translateY(-50%) scaleX(1)';
-    var target=letters.parentElement.getBoundingClientRect().width;
-    var natural=letters.getBoundingClientRect().width;
-    var scale=natural>0?target/natural:1;
-    letters.style.transform=(isP?'':'translateY(-50%) ')+'scaleX('+scale+')';
-  }
-
   function update(){
     var heroR=hero.getBoundingClientRect();
     var y=Math.max(0,-heroR.top), vh=window.innerHeight;   // scroll distance, read from the page itself
@@ -44,10 +35,6 @@
   function onScroll(){ if(!ticking){ticking=true;requestAnimationFrame(update);} }
   document.addEventListener('scroll',onScroll,{passive:true,capture:true});
   window.addEventListener('resize',onScroll);
-  window.addEventListener('resize',fitLetters);
-  portrait.addEventListener('change',fitLetters);
-  if(document.fonts) document.fonts.ready.then(fitLetters);
-  fitLetters();
   update();
 })();
 
